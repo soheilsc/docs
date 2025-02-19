@@ -31,6 +31,15 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "Start Date",
+            "in": "query",
+            "description": "Start date",
+            "schema": {
+              "type": "datetime",
+              "format": "datetime"
+            }
           }
         ],
         "responses": {
