@@ -37,8 +37,8 @@
             "in": "query",
             "description": "Start date",
             "schema": {
-              "type": "datetime",
-              "format": "datetime"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
